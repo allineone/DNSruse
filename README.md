@@ -4,7 +4,11 @@ DNS spoofing tool written in python3
 # Installation
 Supported on debian-based systems. Requires `dnspython` and `argparse`, found in `python3-pip`.
 
-Run `sudo python3 setup.py`
+`git clone https://github.com/allineone/DNSruse`
+
+`cd DNSruse`
+
+`sudo python3 setup.py`
 
 # Usage
 DNSruse can be ran in terminal:
