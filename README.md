@@ -8,7 +8,11 @@ Supported on debian-based systems. Requires `dnspython` and `argparse`, found in
 
 `cd DNSruse`
 
-`sudo python3 setup.py`
+`sudo python3 setup.py install`
+
+You can remove DNSruse using:
+
+`sudo python3 setup.py uninstall`
 
 # Usage
 DNSruse can be ran in terminal:
