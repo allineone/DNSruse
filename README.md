@@ -1,7 +1,7 @@
 # DNSruse
 DNS spoofing tool written in python3
 
-# Installation
+## Installation
 Supported on debian-based systems. Requires `dnspython` and `argparse`, found in `python3-pip`.
 
 `git clone https://github.com/allineone/DNSruse`
@@ -14,7 +14,7 @@ You can remove DNSruse using:
 
 `sudo python3 setup.py uninstall`
 
-# Usage
+## Usage
 DNSruse can be ran in terminal:
 
 `sudo dnsruse <args>`
@@ -23,7 +23,7 @@ or as a service (args can be passed in `/etc/dnsruse/conf.py`):
 
 `sudo service dnsruse start`
 
-# Blacklisting Domains
+## Blacklisting Domains
 
 You can add domains to blacklist to `/etc/blacklist.txt` or specify your own file with `blacklist_path`. Blacklist files should be formatted as such, separated by one line:
 
@@ -35,7 +35,7 @@ You can add domains to blacklist to `/etc/blacklist.txt` or specify your own fil
 
 Requests for these blacklisted domains can then be redirected to your own web server using the `redirect_ip` argument. Note servers should run on the same port as the requested server e.g. HTTPS sites should be hosted on 443.
 
-# Arguments
+## Arguments
 
 #### HOST
 IP of the DNS server can be set with:
