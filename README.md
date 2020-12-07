@@ -37,28 +37,27 @@ Requests for these blacklisted domains can then be redirected to your own web se
 
 # Arguments
 
-IP of the DNS server can be set with:
-
-`HOST_IP=""`
+#### HOST
+IP of the DNS server can be set with: `HOST_IP=""`
 
 This should be the external IP address of an interface e.g. `192.168.0.1`
 
-
+#### PORT
 The port of the DNS server can be set with:
 `PORT=53`
 
-
+#### NAMESERVER
 The upstream nameserver to send DNS requests can be set with:
 `primary_nameserver="1.1.1.1"`
 
-
+#### CACHE
 The max size of the DNS cache, in bytes:
 `max_cache_size=4096`
 
-
+#### BLACKLIST
 The location of the blacklisted domain file:
 `blacklist_path="blacklist.txt"`
 
-
+#### REDIRECTION
 IP to redirect blacklisted IPs to:
 `redirect_ip="0.0.0.0"`
